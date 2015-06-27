@@ -14,6 +14,7 @@ If you want support for other devices than Proove Outlets, you need to change th
 The Python library contains a set of functions to interface with the Arduino and transmitter.
 
 An example of the usage follows:
+
     import pytellcheap
     pytellcheap.add_transmitter("11100110000100110010000001", "01")
     pytellcheap.connect("/dev/ttyACM0")
